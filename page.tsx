@@ -1,14 +1,9 @@
-"use client"
-import React from 'react'
+import Image from "next/image";
 
-const Home = ({params}:{params:{routing: string}}) => {
-    console.log(params);
+export default function Home() {
   return (
-    <div>
-        <h1>Page Descriptions</h1>
-        <h4>Following are the Details of "{params.routing}"</h4>
-    </div>
-  )
+   <div>
+    <h1>Dynamic Routing</h1>
+   </div>
+  );
 }
-
-export default Home
